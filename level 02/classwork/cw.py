@@ -1,0 +1,1 @@
+print("nika frangishvili",12,"tamo","xinkali")

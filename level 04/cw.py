@@ -1,15 +1,4 @@
-name = "Alice"
-age = 25
-height = 5.7
-weight = 60.5
-hobby = "reading"
-
-print(name)
-print(age)
-print(height)
-print(weight)
-print(hobby)
-
+ 
 new_age = age + 1
 print(new_age)
 
