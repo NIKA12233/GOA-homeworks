@@ -1,13 +1,13 @@
-name = 'nikoloz 
+name = "nikoloz"
  #არ აქვს ბრჭყალები
-last_name -> 'frangishvili' #არ აქვს ტოლობა
-age _ 12  # არ აქ ტოლობა
+last_name = 'frangishvili' #არ აქვს ტოლობა
+age=12  # არ აქ ტოლობა
 hobby (programming) #არ აქ ტოლობა და ბრჭყალები
-print =(name, last_name age, hobby   #არ აქვს ბრჩხილი დახურული
+print =(name, last_name age, hobby)  #არ აქვს ბრჩხილი დახურული
     
 
-name = 'nikoloz'
-last_name = 'frangishvili'
+name = "nikoloz"
+last_name = "frangishvili"
 age = 12
-hobby = 'programming'
+hobby = "programming"
 print(name, last_name, age, hobby)
