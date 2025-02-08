@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ელემენტები</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        button {
+            background-color: lightblue;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        .styled-div {
+            background-color: lightgray;
+            padding: 20px;
+            margin: 10px;
+        }
+        .content-div {
+            color: darkblue;
+            font-size: 18px;
+            padding: 15px;
+        }
+        .multi-paragraph div p:nth-child(1) {
+            color: red;
+        }
+        .multi-paragraph div p:nth-child(2) {
+            color: green;
+        }
+        .multi-paragraph div p:nth-child(n+3) {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: red; font-size: 20px;">აბზაცი.</p>
+    <h1> სათაური</h1>
+    <button>click</button>
+    
+    <div class="styled-div">DIV შეცვლილი ბექგრაუნდით</div>
+    
+    <div>
+        <p>ეს არის პარაგრაფი დივის შიგნით</p>
+    </div>
+    
+    <div class="content-div">
+        <p>პარაგრაფი</p>
+        <h1> 1</h1>
+        <h2> 2</h2>
+        <h3> 3</h3>
+        <button>ღილაკი</button>
+    </div>
+    
+    <div class="multi-paragraph">
+        <p>1 პარაგრაფი</p>
+        <p>2 პარაგრაფი</p>
+        <p>3 პარაგრაფი</p>
+        <p>4 პარაგრაფი</p>
+        <p>5 პარაგრაფი</p>
+    </div>
+</body>
+</html>
