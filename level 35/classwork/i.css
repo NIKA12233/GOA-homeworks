@@ -1,0 +1,16 @@
+
+        .box {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .box1 { background-color: rgb(254, 10, 59); color: rgb(0, 255, 166); font-size: 18px; }
+        .box2 { background-color: rgb(0, 0, 0); color: rgb(0, 25, 247); font-size: 20px; }
+        .box3 { background-color: lightgreen; color: darkgreen; font-size: 22px; }
+        .box4 { background-color: rgb(255, 255, 255); color: crimson; font-size: 24px; }
+        .box5 { background-color: lightsalmon; color: brown; font-size: 26px; }
+        .box6 { background-color: rgb(161, 161, 161); color: teal; font-size: 28px; }
+        .box7 { background-color: lightsteelblue; color: darkblue; font-size: 30px; }
+        .box8 { background-color: lightyellow; color: rgb(255, 2, 2); font-size: 32px; }
+        .box9 { background-color: rgb(17, 17, 253); color: indigo; font-size: 34px; }
+        .box10 { background-color: rgb(231, 114, 12); color: rgb(0, 255, 98); font-size: 36px; }
